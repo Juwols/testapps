@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AccessUSBFlashDrive.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="status"
+                   Text="###   Create a File in USB flash drive   ###"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="DarkBlue"
+                   FontAttributes="Bold" FontSize="60" BackgroundColor="AntiqueWhite"/>
+            <Button x:Name="CreateFileBtn" Text="CreateFile" Clicked="CreateFileBtn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
